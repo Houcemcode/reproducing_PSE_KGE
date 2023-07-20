@@ -6,11 +6,11 @@ import gzip
 import numpy as np
 from sklearn.pipeline import Pipeline
 from tqdm import tqdm
-from libkge.embedding import TransE, DistMult, ComplEx, TriModel, DistMult_MCL, ComplEx_MCL, TriModel_MCL
-from libkge import KgDataset
-from libkge.metrics.classification import auc_roc, auc_pr
-from libkge.metrics.ranking import precision_at_k, average_precision
-from libkge.metrics.classification import auc_pr, auc_roc
+from libkge.libkge.embedding import TransE, DistMult, ComplEx, TriModel, DistMult_MCL, ComplEx_MCL, TriModel_MCL
+from libkge.libkge import KgDataset
+from libkge.libkge.metrics.classification import auc_roc, auc_pr
+from libkge.libkge.metrics.ranking import precision_at_k, average_precision
+from libkge.libkge.metrics.classification import auc_pr, auc_roc
 
 
 def main():
